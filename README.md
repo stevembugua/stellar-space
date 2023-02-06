@@ -68,7 +68,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Deployment
 
-Website can be accessed live at [Stellar Space website](https://bot-battlr-prgi.vercel.app/)
+Website can be accessed live at [Stellar Space website](https://stellar-space-6n7v94e8s-stevembugua.vercel.app)
 
 ## Built With
 
@@ -78,7 +78,7 @@ Website can be accessed live at [Stellar Space website](https://bot-battlr-prgi.
 ## Authors
 
 This project was contributed to by:
-- [Ian Ayub](https://github.com/Ayub-Ian)
+- [Ian Ayub]
 - [Steve Mbugua]
 - [Dancun Odhiambo]
 - [Tevin Gichoya]
