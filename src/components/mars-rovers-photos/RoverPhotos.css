@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+.mars-photos {
+    background-color: #131522;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.mp-wrapper {
+    padding-top: 56px;
+}
+
+.mp-title {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 0;
+}
+
+.mp-intro {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.filter-section{
+	
+	text-align: center;
+	background-color: #171b31;
+	padding: 15px 0px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+}
+.rover-selection, .date-selection , .pov-selection, .find-button{
+	display: inline-block;
+	margin-right: 15px;
+	position: relative;
+	transition: 1s all;
+}
+
+
+
+input[type=date]{
+	padding: 5px 12px;
+	background-color: #2F3241;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+    outline: none;
+    border: none;
+}
+input[type="date"]::-webkit-inner-spin-button,::-webkit-calendar-picker-indicator{
+    filter: drop-shadow(16px 16px 20px rgb(255, 255, 255)) invert(100%);
+}
+
+.pov-selection select{
+	padding: 5px 12px;
+	background-color: #2F3241;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+    outline: none;
+}
+.find-button{
+	border-radius: 5px;
+	background-color: #9a00ff;
+	padding: 5px 12px;
+	cursor: pointer;
+}
+
+.find-img{
+	width: 15px;
+	/* background-color: transparent; */
+	/* margin: -10px 10px; */
+	cursor: pointer;
+}
+
+input[type=submit] {
+    background: #9a00ff;
+    border: none;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.photo-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.photo-item {
+    background: #2F3241;
+    padding: 10px;
+    border-radius: 5px;
+}
+.photo-item img{
+    width: 288px;
+}
+
